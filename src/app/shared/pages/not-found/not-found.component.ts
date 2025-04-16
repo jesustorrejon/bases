@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { IonContent } from '@ionic/angular/standalone';
 
 @Component({
@@ -6,7 +7,10 @@ import { IonContent } from '@ionic/angular/standalone';
   selector: 'app-not-found',
   templateUrl: './not-found.component.html',
   styleUrls: ['./not-found.component.scss'],
-  imports: [IonContent]
+  imports: [
+    IonContent,
+    RouterModule
+  ]
 })
 export class NotFoundComponent  implements OnInit {
 

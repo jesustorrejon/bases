@@ -20,4 +20,5 @@ import { ContactComponent } from './pages/contact/contact.component';
     IonContent
   ]
 })
+
 export class ContactModule { }
